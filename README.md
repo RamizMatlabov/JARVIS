@@ -1,4 +1,4 @@
-# ⚙️ Ramiz Matlabov
+# ⚙️ JARVIS
 ## The Ultimate Cross-Platform Personal AI Assistant — by Ramiz Matlabov
 
 A real-time voice AI that can hear, see, understand, and control your computer — on any OS. Supports Windows, macOS, and Linux. Built on the Gemini Live API for native audio streaming, delivering zero subscriptions and total digital autonomy.
@@ -62,7 +62,7 @@ The morning briefing can now be turned on or off with one click from the setting
 
 ---
 
-## 🗺️ Ramiz Roadmap
+## 🗺️ JARVIS Roadmap
 
 | Version | Focus |
 |---------|-------|
@@ -74,15 +74,26 @@ The morning briefing can now be turned on or off with one click from the setting
 
 ## ⚡ Quick Start
 
-1. Install dependencies:
+1. Clone the repository:
+```bash
+git clone https://github.com/RamizMatlabov/JARVIS.git
+```
+
+2. Navigate to the project directory:
+```bash
+cd JARVIS
+```
+
+3. Install dependencies:
 ```bash
 pip install -r requirements.txt
 ```
 
-2. Run the assistant:
+4. Run the assistant:
 ```bash
 python main.py
 ```
+
 
 > ⚠️ **Installation Note**: Some OS-specific dependencies are not bundled in `requirements.txt` to keep the repo lightweight. If you hit a `ModuleNotFoundError`, install the missing package with `pip install <module_name>`.
 
@@ -102,7 +113,7 @@ python main.py
 ## 🗂️ Project Structure
 
 ```
-Ramiz Matlabov/
+JARVIS/
 ├── main.py                  # Core loop — Gemini Live session, audio I/O, tool dispatch
 ├── ui.py                    # PyQt6 HUD — waveform, log panel, interrupt button, camera feed
 ├── setup.py                 # First-run configuration wizard
