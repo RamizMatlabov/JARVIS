@@ -5,7 +5,7 @@ A real-time voice AI that can hear, see, understand, and control your computer �
 
 ---
 
-## ✨ Overview ert
+## ✨ Overview
 
 Ramiz Matlabov deepens the personal assistant foundation. Instead of adding more tools, this build focused on making the assistant truly yours: it starts with your computer, learns your name, and pays attention to what you're doing. The goal before the plugin era begins is a core that feels alive — not just reactive.
 
